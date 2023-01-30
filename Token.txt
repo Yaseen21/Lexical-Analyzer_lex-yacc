@@ -1,0 +1,68 @@
+LINE	LEXME				 TOKEN
+
+  1 	fetchlib 				keyword
+  1 	"Math.lib" 				String constants
+  3 	charType 				Datatype
+  3 	chr 					Identifiers
+  3 	= 					Assignment Operator
+  3 	'a' 				char
+  3 	; 					Terminate
+  5 	typeOut 				keyword
+  5 	( 					Brackets
+  5 	"Enter the No : " 				String constants
+  5 	) 					Brackets
+  5 	; 					Terminate
+  6 	intType 				Datatype
+  6 	num 					Identifiers
+  6 	= 					Assignment Operator
+  6 	typeIn 				keyword
+  6 	( 					Brackets
+  6 	) 					Brackets
+  6 	; 					Terminate
+  7 	func 				keyword
+  8 	if 				keyword
+  8 	( 					Brackets
+  8 	num 					Identifiers
+  8 	% 				Arithmetic Operator
+  8 	2 				Real number
+  8 	== 				Relational Operator
+  8 	0 				Real number
+  8 	) 					Brackets
+  8 	{ 					Brackets
+  9 	typeOut 				keyword
+  9 	( 					Brackets
+  9 	"even" 				String constants
+  9 	) 					Brackets
+  9 	; 					Terminate
+  10 	} 					Brackets
+  11 	else 				keyword
+  11 	{ 					Brackets
+  12 	typeOut 				keyword
+  12 	( 					Brackets
+  12 	"odd" 				String constants
+  12 	) 					Brackets
+  12 	; 					Terminate
+  13 	} 					Brackets
+  15 	intType 				Datatype
+  15 	i 					Identifiers
+  15 	= 					Assignment Operator
+  15 	10 				Real number
+  15 	; 					Terminate
+  17 	whileloop 				keyword
+  17 	( 					Brackets
+  17 	i 					Identifiers
+  17 	) 					Brackets
+  17 	{ 					Brackets
+  18 	i 					Identifiers
+  18 	-- 				Unary Operator
+  18 	; 					Terminate
+  19 	} 					Brackets
+_______________________________________________
+Summary
+_______________________________________________
+Total Token      : 57
+Total Keyword    : 9
+Total Operators  : 13
+Total Datatypes  : 3
+Total Brackets   : 18
+Total Error      : 0
